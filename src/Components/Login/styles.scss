@@ -1,0 +1,25 @@
+.login {
+    margin-top: 16%;
+    width: 25%;
+    border-radius: 0.5rem !important;
+    &-title {
+        color: #537178;
+        font-family: 'Montserrat';
+        font-size: 20px;
+    }
+}
+
+.form-control {
+    background-color: #eef1f8 !important;
+    border-radius: 8px !important;
+
+    &::placeholder {
+        color: #7a7d7e;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .login {
+        width: 95%;
+    }
+}

@@ -1,0 +1,12 @@
+.wrapper {
+    width: 33%;
+    height: 178px !important;
+    border-radius: 12px !important;
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        width: 96% !important;
+        margin-top: 6px;
+    }
+}
